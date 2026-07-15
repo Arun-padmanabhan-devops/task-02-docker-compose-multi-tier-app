@@ -251,32 +251,7 @@ docker network ls
 
 ---
 
-# Interview Topics Covered
 
-- Docker vs Docker Compose
-- Image vs Container
-- Dockerfile Instructions
-- Official Images
-- Environment Variables
-- Named Volumes
-- Docker Networking
-- Port Mapping
-- Service Communication
-- Persistent Storage
-
----
-
-# Future Improvements
-
-- Add Nginx Reverse Proxy
-- Health Checks
-- MySQL Initialization Script
-- Docker Secrets
-- CI/CD using GitHub Actions
-- Kubernetes Deployment
-- Monitoring with Prometheus & Grafana
-
----
 
 # Author
 

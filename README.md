@@ -101,27 +101,23 @@ task-02-docker-compose-multi-tier-app/
 
 ---
 
-# Environment Variables
+## Environment Variables
 
-Create a `.env` file in the project root.
+Create a `.env` file by copying the sample file.
 
-```env
-MYSQL_ROOT_PASSWORD=root123
-MYSQL_DATABASE=task02db
-MYSQL_USER=arun
-MYSQL_PASSWORD=arun123
+Linux/macOS:
 
-DB_HOST=db
-DB_PORT=3306
+```bash
+cp .env.example .env
 ```
 
-A sample template is available in:
+Windows:
 
-```
-.env.example
+```cmd
+copy .env.example .env
 ```
 
----
+Update the values in `.env` before running the application.
 
 # Docker Compose
 
